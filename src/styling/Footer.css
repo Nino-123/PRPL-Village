@@ -1,0 +1,24 @@
+/* Footer Styles */
+.footer {
+  width: 100%;
+  background: linear-gradient(90deg, #e8f5e9 0%, #d7ccc8 100%);
+  color: #4e342e;
+  padding: 2rem 0 1rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  box-shadow: 0 -2px 12px rgba(76, 175, 80, 0.07);
+}
+
+.footer-team {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  opacity: 0.85;
+  font-weight: 500;
+}

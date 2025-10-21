@@ -1,0 +1,135 @@
+/* Product Detail Styles */
+.product-detail-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.product-detail-header {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.product-detail-image {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  background: #f3f4f6;
+  flex-shrink: 0;
+}
+
+.product-detail-info {
+  flex: 1;
+}
+
+.product-detail-name {
+  margin: 0;
+  font-size: 2rem;
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.product-detail-category {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.product-detail-description {
+  color: #4e342e;
+  margin-bottom: 10px;
+}
+
+.product-detail-meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.product-detail-rating {
+  color: #fbbf24;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.product-detail-hours {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.product-detail-section-title {
+  color: #2e7d32;
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+}
+
+.product-detail-promos {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 2.2rem;
+  flex-wrap: wrap;
+}
+
+.product-detail-promo-card {
+  background: linear-gradient(135deg, #f1f8e9 0%, #fffde7 100%);
+  border: 1px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.06);
+  min-width: 220px;
+  flex: 1;
+}
+
+.product-detail-promo-title {
+  font-weight: 700;
+  color: #2e7d32;
+  font-size: 1.05rem;
+}
+
+.product-detail-promo-description {
+  color: #4e342e;
+  font-size: 0.98rem;
+}
+
+.product-detail-promo-status {
+  color: #388e3c;
+  font-weight: 600;
+  font-size: 0.97rem;
+}
+
+.product-detail-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-detail-product-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  transition: box-shadow 0.2s;
+}
+
+.product-detail-product-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.product-detail-product-image {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f3f4f6;
+}
+
+.product-detail-product-name {
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: #2e7d32;
+}

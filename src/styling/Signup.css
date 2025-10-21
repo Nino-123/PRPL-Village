@@ -1,0 +1,117 @@
+/* Signup Styles */
+.signup-container {
+  min-height: calc(100vh - 64px);
+  background: linear-gradient(180deg, #f1f8e9 0%, #fffde7 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+  padding: 2rem 1rem;
+}
+
+.signup-form {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(76, 175, 80, 0.10);
+  padding: 2.5rem 2rem;
+  min-width: 320px;
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.signup-title {
+  text-align: center;
+  color: #4e342e;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-label {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 7px;
+  border: 1px solid #c8e6c9;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  background: #f9fbe7;
+  color: #2e2e2e;
+  caret-color: #2e7d32;
+}
+
+.signup-status-section {
+  margin: 0.5rem 0 1.2rem 0;
+}
+
+.signup-status-label {
+  color: #2e7d32;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.signup-status-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.signup-status-option {
+  flex: 1;
+  cursor: pointer;
+  background: #f9fbe7;
+  color: #4e342e;
+  border: 1px solid #c8e6c9;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+  box-shadow: none;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.2s;
+  min-width: 90px;
+  user-select: none;
+}
+
+.signup-status-option.active {
+  background: #a5d6a7;
+  color: #2e7d32;
+  border: 2px solid #388e3c;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.10);
+  font-weight: 700;
+}
+
+.signup-status-option-title {
+  font-size: 1.08rem;
+  margin-bottom: 4px;
+}
+
+.signup-status-option-desc {
+  font-size: 0.92rem;
+  color: #666;
+}
+
+.signup-button {
+  background: linear-gradient(90deg, #a5d6a7 0%, #81c784 100%);
+  color: #2e7d32;
+  border: none;
+  border-radius: 7px;
+  padding: 0.8rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.07);
+  margin-top: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.signup-button:hover {
+  background: #388e3c;
+  color: #fff;
+}

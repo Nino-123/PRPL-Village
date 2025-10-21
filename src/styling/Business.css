@@ -1,0 +1,253 @@
+/* Business Page Styles */
+.business-container {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.business-header {
+  background: linear-gradient(135deg, #e8f5e9 0%, #fffde7 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 16px rgba(76, 175, 80, 0.08);
+}
+
+.business-profile {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.business-profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #f3f4f6;
+  flex-shrink: 0;
+}
+
+.business-profile-info {
+  flex: 1;
+}
+
+.business-profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin: 0 0 0.5rem 0;
+}
+
+.business-profile-description {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.business-profile-location,
+.business-profile-hours {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.business-edit-button {
+  background: #a5d6a7;
+  color: #2e7d32;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.10);
+  transition: all 0.2s;
+}
+
+.business-edit-button:hover {
+  background: #388e3c;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.business-section {
+  margin-bottom: 3rem;
+}
+
+.business-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.business-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin: 0;
+}
+
+.business-add-button {
+  background: #a5d6a7;
+  color: #2e7d32;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.10);
+  transition: all 0.2s;
+}
+
+.business-add-button:hover {
+  background: #388e3c;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.business-promo-grid,
+.business-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.business-promo-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.business-promo-card.inactive {
+  opacity: 0.6;
+  background: #f5f5f5;
+}
+
+.business-promo-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #2e7d32;
+}
+
+.business-promo-description {
+  color: #555;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.business-promo-status {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.business-promo-status.active {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.business-promo-status.inactive {
+  background: #e0e0e0;
+  color: #666;
+}
+
+.business-promo-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.business-action-button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.business-action-button.edit {
+  background: #fff9c4;
+  color: #f57f17;
+}
+
+.business-action-button.edit:hover {
+  background: #f57f17;
+  color: #fff;
+}
+
+.business-action-button.deactivate {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+.business-action-button.deactivate:hover {
+  background: #c62828;
+  color: #fff;
+}
+
+.business-product-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+}
+
+.business-product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.business-product-info {
+  padding: 1.2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.business-product-name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #2e7d32;
+}
+
+.business-product-description {
+  color: #555;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.business-product-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #f57f17;
+}
+
+.business-product-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.business-action-button.remove {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+.business-action-button.remove:hover {
+  background: #c62828;
+  color: #fff;
+}
