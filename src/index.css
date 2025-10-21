@@ -27,6 +27,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
 /* Ensure autofilled inputs keep visible text and theme-friendly bg */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
